@@ -21,6 +21,11 @@ Sebagai trainer, pengguna dapat:
 4. Menjalankan jurus spesial Pokémon melalui OOP  
 5. Melihat riwayat semua sesi pelatihan  
 
+Encapsulation: Properti kelas disembunyikan (private/protected) dan diakses melalui getter/setter.
+Inheritance: ElectricPokemon mewarisi dari Pokemon.
+Polymorphism: Method specialMove() di-override di ElectricPokemon untuk perilaku spesifik tipe Electric.
+Abstraction: Kelas induk Pokemon menyediakan interface umum, sementara detail spesifik ditangani di subclass.
+
 Aplikasi dibuat sepenuhnya dengan **PHP Native**, tanpa framework, dan menerapkan **4 Pilar OOP** (Encapsulation, Inheritance, Polymorphism, Abstraction).
 
 ---
