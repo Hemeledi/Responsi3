@@ -4,7 +4,7 @@ session_start();
 
 // Inisialisasi Pokémon jika belum ada di session
 if (!isset($_SESSION['pokemon'])) {
-    $_SESSION['pokemon'] = new ElectricPokemon('Arcanine', 5, 35);
+    $_SESSION['pokemon'] = new ElectricPokemon('Clefable', 5, 35);
 }
 $pokemon = $_SESSION['pokemon'];
 ?>

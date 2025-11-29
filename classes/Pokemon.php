@@ -18,14 +18,15 @@ abstract class Pokemon {
     }
 
     // Method untuk set gambar berdasarkan nama
-   private function setImage($name) {
+  private function setImage($name) {
     switch (strtolower($name)) {
-        case 'pikachu':
-            return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png'; 
+        case 'clefable':
+            return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png';
         default:
-            return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png';
+            return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png'; 
     }
 }
+
 
 
 
